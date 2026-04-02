@@ -1,0 +1,18 @@
+PUT YOUR ALARM SOUND HERE
+========================
+
+File needed: alarm.mp3
+
+Requirements:
+- Format: MP3
+- Duration: at least 10 seconds (it loops, so length doesn't matter much)
+- Volume: loud and jarring is the point
+
+Free sources:
+- https://freesound.org (search "alarm clock")
+- https://pixabay.com/sound-effects/search/alarm/
+- Any loud ringtone MP3 renamed to alarm.mp3
+
+After placing the file here, the app will use it as the looping alarm sound.
+The notification channel in AlarmService.js also references 'alarm.mp3' for
+the system-level notification sound on Android.
